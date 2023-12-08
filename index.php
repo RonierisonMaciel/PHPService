@@ -88,9 +88,9 @@ $clienteCadastrado = false;
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Dados de conexão com o banco de dados
-    $servername = "localhost";
-    $username = "lucdospassos";
-    $password = "@Deh99012#";
+    $servername = "database-1.cnmkxrh6lza8.us-east-1.rds.amazonaws.com";
+    $username = "admin";
+    $password = "RUN8vry6keg.vda.kxp";
     $dbname = "db_php";
 
     // Conecta ao banco de dados
